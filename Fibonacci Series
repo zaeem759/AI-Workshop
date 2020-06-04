@@ -1,0 +1,12 @@
+f=0
+s=1
+print(f)
+print(s)
+i=0
+j=1
+while i>=0:
+    while j>=1:
+        sum=i+j
+        print(sum)
+        i=j
+        j=sum
